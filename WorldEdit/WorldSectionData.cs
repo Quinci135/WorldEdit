@@ -112,6 +112,7 @@ namespace WorldEdit
 					}
 					break;
 				case TileID.Containers:
+				case TileID.Containers2:
 				case TileID.Dressers:
 					if (tile.frameX % 36 == 0 && tile.frameY == 0)
 					{
